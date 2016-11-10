@@ -1,0 +1,46 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+
+@media (--breakpoint-large) {
+    .left-10-l { left: 10%; }
+    .left--10-l { left: -20%; }
+    .stretch { 
+        margin-top: -4rem;
+        margin-bottom: -4rem;
+    }
+}
+
+.triangle  { 
+    background: linear-gradient(
+    to bottom right, 
+    transparent 0%, 
+    transparent 50%, 
+    #D1E0E7
+    50%, 
+    #D1E0E7 100%
+    );
+}  
+
+.reverse-triangle  { 
+    background: linear-gradient(
+    to bottom left, 
+    transparent 0%, 
+    transparent 50%, 
+    #D1E0E7
+    50%, 
+    #D1E0E7 100%
+    );
+}  
+
+.square { 
+    transform: rotate(45deg);
+}
+
+
+
